@@ -202,18 +202,33 @@ def nextGeneration(currentGen, eliteSize, mutationRate):
 # # print(next_generation)
 
 # print(rankRoutes(next_generation))
-city1 = City(2 ,3)
-city2 = City(20 ,30)
-city3 = City(12 ,13)
-city4 = City(22 ,33)
-city5 = City(25 ,53)
-city_list = [city1,city2,city3,city4,city5]
+# city1 = City(2 ,3)
+# city2 = City(20 ,30)
+# city3 = City(12 ,13)
+# city4 = City(22 ,33)
+# city5 = City(25 ,53)
+
+city1 = City(16.47,96.10)
+city2 = City(16.47 , 94.44)
+city3 = City(20.09 , 92.54)
+city4 = City(22.39 , 93.37)
+city5 = City(25.23 , 97.24)
+city6 = City(22.00 , 96.05)
+city7 = City(20.47 , 97.02)
+city8 = City(17.20 , 96.29)
+city9 = City(16.30 , 97.38)
+city10 = City(14.05 , 98.12)
+city11 = City(16.53 , 97.38)
+city12 = City(21.52 , 95.59)
+city13 = City(19.41 , 97.13)
+city14 = City(20.09 , 94.55)
+city_list = [city1,city2,city3,city4,city5,city6,city7,city8,city9,city10,city11,city12,city13,city14]
 
 # Constants
-POPULATION_SIZE = 4
+POPULATION_SIZE = 14
 MUTATION_RATE = 0.1
 # TOURNAMENT_SIZE = 5
-NUM_GENERATIONS = 3
+NUM_GENERATIONS = 5
 NUM_ELITE = 2
 
 fittest_list = []
